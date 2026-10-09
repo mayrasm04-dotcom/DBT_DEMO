@@ -1,5 +1,5 @@
 select
 *
-from {{ source('DEMO', 'WEATHER') }}
+from {{ source('DEMO', 'BIKE') }}
 
 limit 10 
